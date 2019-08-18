@@ -5,6 +5,7 @@
     <%= link_to  tag.name, tag_path(tag) %>
     <% end %>
 </p>
+<%= image_tag  @article.image.url %>
 <p> <%= @article.body %> </p>
 
 <%= link_to  "edit", edit_article_path(@article) %>
