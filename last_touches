@@ -1,0 +1,7 @@
+last:
+    bin/rails generate controller AuthorSessions
+
+remain:
+    everything after that 
+
+note{ I didn't commit }        
